@@ -1,11 +1,11 @@
-import { StoreState } from '../types'
-import { Action } from '../actions'
+import { StoreState } from 'types'
+import { Action } from 'actions'
 
-import one from '../data/50_50_0.7_0.3.json'
-import two from '../data/50_50_0.8_0.2.json'
-import three from '../data/50_50_0.9_0.1.json'
-import four from '../data/50_50_0.95_0.05.json'
-import five from '../data/50_50_0.99_0.01.json'
+import one from 'data/50_50_0.7_0.3.json'
+import two from 'data/50_50_0.8_0.2.json'
+import three from 'data/50_50_0.9_0.1.json'
+import four from 'data/50_50_0.95_0.05.json'
+import five from 'data/50_50_0.99_0.01.json'
 
 const initialState = {
   dataset: 0,

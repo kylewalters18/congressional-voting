@@ -1,6 +1,6 @@
 import React from 'react'
 import { Carousel } from 'antd'
-import './timeline.css'
+import 'components/timeline.css'
 
 const Timeline = ({ selectDataset, numberOfDatasets }: any) => (
     <Carousel

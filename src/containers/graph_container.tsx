@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import Graph from '../components/graph'
-import { StoreState } from '../types'
+import Graph from 'components/graph'
+import { StoreState } from 'types'
 
 
 const mapStateToProps = (store: StoreState) => {

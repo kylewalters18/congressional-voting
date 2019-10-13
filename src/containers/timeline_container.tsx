@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
-import Timeline from '../components/timeline'
-import { selectDataset } from '../actions'
-import { StoreState } from '../types'
+import Timeline from 'components/timeline'
+import { selectDataset } from 'actions'
+import { StoreState } from 'types'
 
 
 const mapStateToProps = (state: StoreState) => ({

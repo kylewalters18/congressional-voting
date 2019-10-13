@@ -1,8 +1,10 @@
 import React from 'react'
 import { Layout, Affix, Row, Col, Typography } from "antd";
-import Graph from '../containers/graph_container'
-import Timeline from '../containers/timeline_container'
-import Bills from '../components/bills'
+
+import Graph from 'containers/graph_container'
+import Timeline from 'containers/timeline_container'
+import Bills from 'components/bills'
+
 import 'antd/dist/antd.css';
 
 const { Title } = Typography;
